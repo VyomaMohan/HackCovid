@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".activity_customerorders"></activity>
+=======
+        <activity android:name=".listview"></activity>
+>>>>>>> 216769162efd601c0de3734bdda177524d68f06c
         <activity android:name=".viewcustomer" />
         <activity android:name=".order" />
         <activity android:name=".Loginactivityforcustomer" />

@@ -10,65 +10,64 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="364dp"
-        android:layout_height="56dp"
+        android:layout_width="396dp"
+        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="30dp"
-        android:layout_marginBottom="397dp"
+        android:layout_marginBottom="384dp"
         android:background="#fff"
         android:ems="10"
         android:hint="  shop name"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/colorPrimaryDark" />
+        android:inputType="textPersonName"/>
 
     <EditText
         android:id="@+id/editText1"
-        android:layout_width="364dp"
-        android:layout_height="56dp"
+        android:layout_width="379dp"
+        android:layout_height="66dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
         android:layout_marginBottom="292dp"
         android:background="#fff"
         android:ems="10"
         android:hint="  phone"
-        android:inputType="phone"
-        android:textColorHint="@color/colorPrimaryDark" />
+        android:inputType="phone"/>
+
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="364dp"
-        android:layout_height="56dp"
+        android:layout_width="383dp"
+        android:layout_height="62dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginLeft="22dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
         android:layout_marginBottom="202dp"
         android:background="#fff"
         android:ems="10"
-        android:hint="  locality"
-        android:textColorHint="@color/colorPrimaryDark" />
+        android:hint="  locality"/>
+        //android:textColorHint="@color/colorPrimaryDark" />
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="358dp"
-        android:layout_height="56dp"
+        android:layout_width="374dp"
+        android:layout_height="64dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginBottom="122dp"
+        android:layout_marginBottom="112dp"
         android:background="#fff"
         android:ems="10"
-        android:textColorHint="@color/colorPrimaryDark"
         android:hint=" password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        />
 
     <Button
         android:id="@+id/button"
