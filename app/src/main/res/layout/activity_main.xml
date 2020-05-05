@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context=".MainActivity"/>
-=======
+
     android:background="#ff3E4D"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
@@ -40,11 +38,11 @@
         android:ems="10"
         android:text="customer"
         android:textSize="27dp"
- />
+     />
 
 
 
 
 
 </RelativeLayout>
->>>>>>> 499386c9f013486f050e9de20acd7d89d13be890
+

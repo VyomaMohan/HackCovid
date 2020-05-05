@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".viewcustomer"></activity>
+        <activity android:name=".activity_customerorders"></activity>
+        <activity android:name=".viewcustomer" />
         <activity android:name=".order" />
         <activity android:name=".Loginactivityforcustomer" />
         <activity android:name=".Loginactivityforshopkeeper" />
