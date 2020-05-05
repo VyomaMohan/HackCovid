@@ -29,7 +29,7 @@ Button bt1,bt2;
         bt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,Loginactivityforshopkeeper.class);
+                Intent intent=new Intent(MainActivity.this,Loginactivityforcustomer.class);
                 startActivity(intent);
             }
         });
