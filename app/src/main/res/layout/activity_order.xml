@@ -2,9 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/order_form"
     android:layout_width="match_parent"
-    android:background="#74B9FF"
     android:layout_height="match_parent"
+    android:background="#74B9FF"
     tools:context=".order">
 
     <TextView
@@ -15,33 +16,16 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="57dp"
         android:layout_marginEnd="118dp"
         android:layout_marginRight="118dp"
         android:text="Book a slot"
-        android:textColor="#000"
         android:textAlignment="center"
+        android:textColor="#000"
         android:textSize="30dp"
         tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="126dp" />
-
-    <TextView
-        android:textColor="#EA7773"
-        android:id="@+id/textView1"
-        android:layout_width="395dp"
-        android:layout_height="80dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="221dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:text="Find a nearby store"
-        android:textAlignment="center"
-        android:textSize="40dp"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="126dp" />
+        tools:layout_editor_absoluteY="126dp"
+        android:gravity="center_horizontal" />
 
     <Button
         android:id="@+id/bt1"
@@ -53,8 +37,64 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="62dp"
         android:layout_marginLeft="62dp"
-        android:layout_marginBottom="184dp"
-        android:text="start booking a slot"
+        android:layout_marginBottom="80dp"
+        android:text="Book a slot"
         android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/form_phone_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Phone" />
+
+    <EditText
+        android:id="@+id/form_store_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="223dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Store" />
+
+    <EditText
+        android:id="@+id/form_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="288dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Items" />
+
+    <EditText
+        android:id="@+id/form_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="373dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Date and time" />
 
 </RelativeLayout>

@@ -15,7 +15,7 @@ public class Loginactivityforshopkeeper extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loginactivityforshopkeeper);
-        et1=findViewById(R.id.editText);
+        et1=findViewById(R.id.registershopname);
         et2=findViewById(R.id.editText1);
         et3=findViewById(R.id.editText2);
         et4=findViewById(R.id.editText3);
@@ -24,9 +24,9 @@ public class Loginactivityforshopkeeper extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Loginactivityforshopkeeper.this,viewcustomer.class);
+                intent.putExtra("shopname",et1.getText().toString());
                 startActivity(intent);
             }
         });
-
     }
 }

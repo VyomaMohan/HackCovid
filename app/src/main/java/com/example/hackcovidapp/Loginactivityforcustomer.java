@@ -23,6 +23,7 @@ Button bt1,bt2;
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Loginactivityforcustomer.this,activity_customerorders.class);
+                //intent.putExtra("phoneNumber",et2.getText().toString());
                 startActivity(intent);
             }
         });

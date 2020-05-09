@@ -8,7 +8,7 @@ android:background="#74B9FF"
     android:paddingRight="20dp"
     tools:context=".Loginactivityforcustomer">
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/registershopname"
         android:layout_width="360dp"
         android:layout_height="56dp"
         android:layout_alignParentBottom="true"
@@ -49,7 +49,7 @@ android:background="#74B9FF"
         android:layout_marginStart="106dp"
         android:layout_marginLeft="106dp"
         android:layout_marginBottom="90dp"
-        android:text="Register"
+        android:text="Login"
         android:textSize="20dp" />
 
 </RelativeLayout>
