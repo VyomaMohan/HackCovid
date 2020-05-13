@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:background="#74B9FF"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context=".order">
 
     <TextView
@@ -26,34 +27,34 @@
         tools:layout_editor_absoluteY="126dp" />
 
     <TextView
-        android:textColor="#EA7773"
         android:id="@+id/textView1"
-        android:layout_width="395dp"
-        android:layout_height="80dp"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="221dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
         android:text="Find a nearby store"
         android:textAlignment="center"
+        android:textColor="#EA7773"
         android:textSize="40dp"
         tools:layout_editor_absoluteX="107dp"
         tools:layout_editor_absoluteY="126dp" />
 
     <Button
         android:id="@+id/bt1"
-        android:layout_width="280dp"
-        android:layout_height="97dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="62dp"
-        android:layout_marginLeft="62dp"
-        android:layout_marginBottom="184dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginBottom="185dp"
         android:text="start booking a slot"
         android:textSize="20dp" />
 

@@ -21,7 +21,7 @@ public class listview extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listview);
-        String[] item={"item1","item2","item3 ","item4","item5"} ;
+        String[] item={} ;
         ListView simpleList = findViewById(R.id.simpleListView);
         arrayList=new ArrayList<>(Arrays.asList(item));
         arrayAdapter = new ArrayAdapter<String>(this, R.layout.listview, R.id.textView, arrayList);

@@ -11,36 +11,32 @@
 
     <Button
         android:id="@+id/bt1"
-        android:layout_width="383dp"
-        android:layout_height="59dp"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginLeft="13dp"
-        android:layout_marginBottom="339dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginBottom="413dp"
         android:background="#fff"
         android:text="shopkeeper"
-        android:textSize="27dp"/>
+        android:textSize="27dp" />
 
     <Button
         android:id="@+id/bt2"
-        android:layout_width="358dp"
-        android:layout_height="58dp"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginBottom="246dp"
+        android:layout_marginBottom="327dp"
         android:background="#fff"
         android:ems="10"
         android:text="customer"
-        android:textSize="27dp"
- />
-
-
-
+        android:textSize="27dp" />
 
 
 </RelativeLayout>
