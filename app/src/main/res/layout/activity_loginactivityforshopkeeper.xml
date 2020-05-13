@@ -9,8 +9,13 @@ android:padding="10dp"
     tools:context=".Loginactivityforshopkeeper">
 
     <EditText
+
         android:id="@+id/editText"
         android:layout_width="350dp"
+
+        android:id="@+id/registershopname"
+        android:layout_width="396dp"
+
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -80,7 +85,7 @@ android:padding="10dp"
         android:layout_marginStart="114dp"
         android:layout_marginLeft="114dp"
         android:layout_marginBottom="32dp"
-        android:text="Register"
+        android:text="Login"
         android:textSize="20dp" />
 
 

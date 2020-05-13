@@ -7,43 +7,38 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.widget.EditText;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class viewcustomer extends AppCompatActivity {
-    EditText regShopNameField;
-    TextView shopname;
+public class activity_customerorders extends AppCompatActivity {
+Button bt2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_viewcustomer);
+        setContentView(R.layout.activity_customerorders);
 
-        Intent i=getIntent();
+        bt2=findViewById(R.id.button2);
 
+        Intent i=new Intent();
+        String custPh=i.getStringExtra("phoneNumber");
 
-        String regShopName=i.getStringExtra("shopname");
-
-
-        shopname=findViewById(R.id.shopname);
-        shopname.setText(regShopName);
-
-        //regShopNameField=findViewById(R.id.registershopname);
-        //String regShopName=regShopNameField.getText().toString();
-
-        Context context=viewcustomer.this;
+        Context context=activity_customerorders.this;
         DBHelper dbHelper=new DBHelper(context);
         SQLiteDatabase db=dbHelper.getReadableDatabase();
+        dbHelper.onCreate(db);
 
         ArrayList orders=new ArrayList<OrderFormat>();
 
-        String selection =  "storeName = ?";
-        String[] selectionArgs = { regShopName };
+        //String selection =  "phoneNumber = ?";
+       // String[] selectionArgs = { custPh };
 
         Cursor cursor=db.query(
-                "StoreOrder",null,selection,selectionArgs,null,null,null
+           "StoreOrder",null,null,null,null,null,null
         );
 
         while(cursor.moveToNext()) {
@@ -60,7 +55,16 @@ public class viewcustomer extends AppCompatActivity {
 
         ordersCustomAdapter adapter=new ordersCustomAdapter(this,orders);
 
-        ListView listView = (ListView) findViewById(R.id.shopkeeperlist);
+        ListView listView = (ListView) findViewById(R.id.customersideorders);
         listView.setAdapter(adapter);
+
+
+        bt2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(activity_customerorders.this,order.class);
+                startActivity(intent);
+            }
+        });
     }
 }

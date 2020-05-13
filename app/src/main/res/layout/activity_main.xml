@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="#ff3E4D"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
@@ -36,7 +37,16 @@
         android:background="#fff"
         android:ems="10"
         android:text="customer"
+
         android:textSize="27dp" />
 
 
+
+
+
+
+
+
+
 </RelativeLayout>
+
